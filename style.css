@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .containerHomePage {
@@ -102,12 +103,13 @@ li {
 
 .containerProgrammingContent {
     display: flex;
-    height: 100%;
+    height: 100vh;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.containerProgrammingContent:nth-child(odd) {
+.containerProgrammingContent:nth-child(even) {
     background-color: rgba(74, 21, 141, 0.85);
 }
 
@@ -133,6 +135,53 @@ li {
     height: 100%;
     object-fit: cover;
     border-radius: 18px;
+}
+
+.containerLanguagePage {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(74, 21, 141, 0.84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLanguage {
+    width: 100%;
+    height: 70%;
+    background-color: #240759;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerConteudos {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #4A158D;
+}
+
+.card {
+    background-color: white;
+    height: 80%;
+    width: 20%;
+    border-radius: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card img {
+    fill: #4A158D;
+    height: 5rem;
+    width: 5rem;
 }
 
 .programmingContent {
