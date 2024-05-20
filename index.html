@@ -3,46 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar com Submenus</title>
+    <title>Programação</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="navbar">
-    <a href="#" class="home">Home</a>
-    <div class="dropdown">
-        <a href="#">Exercícios</a>
-        <div class="dropdown-content">
-            <a href="#">Exercício 1</a>
-            <a href="#">Exercício 2</a>
-            <a href="#">Exercício 3</a>
+    <div class="containerHomePage">
+        <div class="navbar">
+            <div class="containerLogo">
+                <img src="./catolica_logo.png" alt="">
+            </div>
+            <div class="containerNav">
+                <div class="containerNavOption">
+                    <a href="#home">Início</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Exercício
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Exercício 1</a>
+                            <a href="#">Exercício 2</a>
+                            <a href="#">Exercício 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Conteúdos
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Conteúdos 1</a>
+                            <a href="#">Conteúdos 2</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Aulas
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Aula 1</a>
+                            <a href="#">Aula 2</a>
+                            <a href="#">Aula 3</a>
+                            <a href="#">Aula 4</a>
+                        </div>
+                    </div>
+                    <a href="#news">Recomendação de site</a>
+                </div>
+            </div>
+        </div>
+        <div class="containerContent">
+            <div class="content">
+                <p class="tittle">TITULO</p>
+                <p class="text">
+                        (introdução)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <div class="containerProgrammingContent">
+            <div class="content">
+                <div class="containerImage">
+                    <img src="./img1.jpg" alt="">
+                </div>
+                <div class="programmingContent">
+                    <p class="tittle">Lógica de Programação</p>
+                    <ul>
+                        <li>Conteúdos</li>
+                        <li>Introdução sobre as principais estruturas da programação.</li>
+                    </ul>
+                    <button class="btMore">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="containerProgrammingContent">
+            <div class="content">
+                <div class="programmingContent">
+                    <p class="tittle">Lógica de Programação</p>
+                    <ul>
+                        <li>Conteúdos</li>
+                        <li>Introdução sobre as principais estruturas da programação.</li>
+                    </ul>
+                    <button class="btMore">Saiba mais</button>
+                </div>
+                <div class="containerImage">
+                    <img src="./img1.jpg" alt="">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="dropdown">
-        <a href="#">Conteúdos</a>
-        <div class="dropdown-content">
-            <a href="#">Conteúdo 1</a>
-            <a href="#">Conteúdo 2</a>
-            <a href="#">Conteúdo 3</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a href="#">Aulas</a>
-        <div class="dropdown-content">
-            <a href="#">Aula 1</a>
-            <a href="#">Aula 2</a>
-            <a href="#">Aula 3</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <a href="#">Recomendação de Site</a>
-        <div class="dropdown-content">
-            <a href="#">Site 1</a>
-            <a href="#">Site 2</a>
-            <a href="#">Site 3</a>
-        </div>
-    </div>
-</div>
-
 </body>
 </html>
