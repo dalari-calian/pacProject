@@ -240,3 +240,48 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#bloco{
+    background-color: #9C71D1;
+    color: white;
+    min-height: 80vh;
+}
+p{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 2em;
+    text-align: justify;
+}
+
+#criancas{
+    width: 40%;
+    margin: 100px;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+#cont{
+    display: flex;
+}
+#conteud{
+    font-size: 5em;
+    margin-left: 100px;
+}
+
+
+#cont >div{
+    margin-top: 30px;
+}
+
+.esquerda{
+    margin-left: 0px;
+}
+.centro{
+    text-align: center;
+    margin-top: 100px;
+}
+.tab{
+    margin-left: 150px;
+}
+.dividir{
+    display: flex;
+}
