@@ -240,17 +240,27 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/*----MACHADO------------------MACHADO-------------MACHADO--------------MACHADO---------------------------*/
+
+
 
 #bloco{
     background-color: #9C71D1;
     color: white;
     min-height: 80vh;
+    font-family: poppins;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.163);
 }
-p{
+#bloco>div>div>p{
     margin-left: 150px;
     margin-right: 150px;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: justify;
+    background-color: #2407593c;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.254);
+    
 }
 
 #criancas{
@@ -258,30 +268,59 @@ p{
     margin: 100px;
     border-radius: 20px;
     margin-left: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
 }
 #cont{
     display: flex;
 }
 #conteud{
-    font-size: 5em;
-    margin-left: 100px;
+    font-size: 4.2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.logica{
+    font-family: poppins;
+    line-height: 1.8em;
 }
 
 
-#cont >div{
-    margin-top: 30px;
-}
-
-.esquerda{
-    margin-left: 0px;
-}
 .centro{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
+
 }
-.tab{
-    margin-left: 150px;
-}
+
 .dividir{
     display: flex;
+    text-align: justify;
+    margin-top: 30px;
+    justify-content: center;
+    margin-inline: 200px;
+    gap: 100px;
+}
+
+
+.meio{
+    text-align: justify;
+    margin-inline: 200px;
+    
+}
+.fotocode{
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.29);
+}
+
+.dividir>div>h1{
+    line-height: 1.5em;
+}
+
+.sombra{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+#simbolocat{
+position: absolute;
+left: 20px;
 }
