@@ -1,0 +1,74 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+:root {
+    --cor0: #4A158D;
+
+    --font-padrão:"DM Sans", arial, sans-serif;
+    --font-destaque:"Poppins", arial, sans-serif;
+}
+
+
+#jogos1 {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+}
+
+#jogos1 h2 {
+    padding-top: 5%;
+    font: 64px var(--font-destaque);
+}
+
+.div1, .div2 {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #9C71D1;
+    align-items: center;
+}
+
+.jogosCard {
+    width: 15%;
+    height: 70%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 0.3px rgba(0, 0, 0, 0.217);
+}
+
+.jogosCard .img {
+    height: 50%;
+    background-color: yellow;
+    width: 70%;  
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 12px;
+    box-shadow: 0.5px 0.5px 0.3px rgba(0, 0, 0, 0.257);   
+}
+
+h3 {
+    text-align: center;
+    font: 24px var(--font-padrão);
+    padding-top: 1%;
+}
+
+.botaojogos {
+    margin: auto;
+    padding: 1%;
+    background-color: #4A158D;
+    color: white;
+    font: 32px var(--font-padrão);
+    text-align: center;
+    width: 35%;
+    border-radius: 12px;
+    margin-top: 8%;
+    box-shadow: 0.5px 0.5px 0.3px rgba(0, 0, 0, 0.283);
+}
