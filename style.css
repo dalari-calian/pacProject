@@ -66,17 +66,17 @@ body {
 }
 
 .tittle {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
 }
 
 .text {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: left;
 }
 
 li {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 15px;
 }
 
@@ -86,7 +86,7 @@ li {
     border: none;
     height: 5rem;
     width: 12rem;
-    font-size: 26px;
+    font-size: 1.625rem;
     border-radius: 7px;
     transition: background-color 0.5s, transform 0.5s ease-out;
 }
@@ -184,6 +184,15 @@ li {
     width: 5rem;
 }
 
+.tittleCard{
+    font-size: 2.5rem;
+    margin: 0.5rem;
+}
+
+.textCard{
+    font-size: 1.2rem;
+}
+
 .programmingContent {
     flex: 1;
     display: flex;
@@ -195,7 +204,7 @@ li {
 
 .containerNavOption a {
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -206,7 +215,7 @@ li {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     outline: none;
     color: rgb(0, 0, 0);
@@ -240,6 +249,158 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.languageTittle{
+    font-size: 3rem;
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .tittle {
+        font-size: 2.1rem;
+    }
+
+    .text {
+        font-size: 1.6rem;
+    }
+
+    .containerNavOption a {
+        font-size: 0.80rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.80rem;
+    }
+
+    .tittleCard{
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .textCard{
+        font-size: 0.8rem;
+    }
+
+    #simbolocat{
+        width: 25rem;
+        height: 10rem;
+    }
+}
+
+/* FHD+ (2160×1440) */
+@media (min-width: 2160px) and (max-width: 2560px) {
+    .tittle {
+        font-size: 5rem;
+    }
+
+    .text {
+        font-size: 2.6rem;
+    }
+
+    .containerNavOption a {
+        font-size: 1.5rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 1.5rem;
+    }
+
+    .tittleCard{
+        font-size: 4rem;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .textCard{
+        font-size: 1.5rem;
+    }
+
+    .languageTittle{
+        font-size: 4rem;
+    }
+
+    #simbolocat{
+        width: 30rem;
+        height: 15rem;
+    }
+}
+
+/* UWQHD (3440×1440) */
+@media (min-width: 3440px) and (max-width: 3840px) {
+    .tittle {
+        font-size: 6rem;
+    }
+
+    .text {
+        font-size: 3rem;
+    }
+
+    .containerNavOption a {
+        font-size: 1.8rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 1.8rem;
+    }
+
+    .tittleCard{
+        font-size: 5rem;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .textCard{
+        font-size: 1.8rem;
+    }
+
+    .languageTittle{
+        font-size: 5rem;
+    }
+
+    #simbolocat{
+        width: 35rem;
+        height: 15rem;
+    }
+}
+
+/* 4K UHD (3840×2160) */
+@media (min-width: 3840px) {
+    .tittle {
+        font-size: 7rem;
+    }
+
+    .text {
+        font-size: 4.5rem;
+    }
+
+    .containerNavOption a {
+        font-size: 2.2rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 2.2rem;
+    }
+
+    .tittleCard{
+        font-size: 6rem;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .textCard{
+        font-size: 2.5rem;
+    }
+
+    .languageTittle{
+        font-size: 6rem;
+    }
+
+    #simbolocat{
+        width: 40rem;
+        height: 20rem;
+
+    }
+}
+
 /*----MACHADO------------------MACHADO-------------MACHADO--------------MACHADO---------------------------*/
 
 
