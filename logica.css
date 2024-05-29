@@ -41,6 +41,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     filter: grayscale(100%) brightness(0) invert(100%);
+    width: 50%;
+    height: 50%;
 }
 
 nav {
