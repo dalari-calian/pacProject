@@ -76,7 +76,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #4A158D;
+    color: #000000;
 }
 
 .dropdown-menu {
@@ -87,11 +87,13 @@ nav li a:hover {
     display: none;
     z-index: 1; 
     background-color: white;
-    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 2px 2px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
     
 }
-
+.dropdown-menu a:hover{
+    background-color: rgb(225, 225, 225);
+}
 .dropdown-menu a {
     display: block;
     color: black;

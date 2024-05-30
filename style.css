@@ -1,3 +1,9 @@
+*{
+    font-family: poppins;
+    font-size: 1.35vh;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -52,7 +58,7 @@ body {
 .containerContent {
     display: flex;
     height: 80%;
-    background-color: #EAEAEA;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
 }
@@ -401,87 +407,3 @@ li {
     }
 }
 
-/*----MACHADO------------------MACHADO-------------MACHADO--------------MACHADO---------------------------*/
-
-
-
-#bloco{
-    background-color: #9C71D1;
-    color: white;
-    min-height: 80vh;
-    font-family: poppins;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.163);
-}
-#bloco>div>div>p{
-    margin-left: 150px;
-    margin-right: 150px;
-    font-size: 1.5em;
-    text-align: justify;
-    background-color: #2407593c;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.254);
-    
-}
-
-#criancas{
-    width: 40%;
-    margin: 100px;
-    border-radius: 20px;
-    margin-left: 0px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
-}
-#cont{
-    display: flex;
-}
-#conteud{
-    font-size: 4.2em;
-    text-align: center;
-    font-weight: 500;
-}
-
-.logica{
-    font-family: poppins;
-    line-height: 1.8em;
-}
-
-
-.centro{
-    text-align: center;
-    margin-top: 70px;
-
-}
-
-.dividir{
-    display: flex;
-    text-align: justify;
-    margin-top: 30px;
-    justify-content: center;
-    margin-inline: 200px;
-    gap: 100px;
-}
-
-
-.meio{
-    text-align: justify;
-    margin-inline: 200px;
-    
-}
-.fotocode{
-    width: 500px;
-    margin-top: 30px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.29);
-}
-
-.dividir>div>h1{
-    line-height: 1.5em;
-}
-
-.sombra{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
-}
-#simbolocat{
-position: absolute;
-left: 20px;
-}
