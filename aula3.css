@@ -15,7 +15,7 @@
     --font-destaque:"Poppins", arial, sans-serif;
 }
 body {
-    background-color:rgba(255, 255, 255, 0.861);
+    background-color: rgba(211, 211, 211, 0.524);";
 }
 
 header {
@@ -159,7 +159,6 @@ nav li a:hover {
     background-size: cover;
     border-radius: 18px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
-    border: 1px solid rgba(0, 0, 0, 0.363);
 }
 
 #main1 {
@@ -258,6 +257,7 @@ ol {
 }
 
 #art1 {
+    padding-top: 6%;
     height: 30vh;
     position: relative;
 }
@@ -276,74 +276,99 @@ ol {
 }
 
 #art1 > #titart {
-    font: bolder 92px var(--font-destaque);
+    font: bolder 62px var(--font-destaque);
     color: #4A158D;
 }
 
-#main5 {
-    height: 70vh;
+#art2{
+    height: 30vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#artigo5 {
-    display: flex;
-    height: 50vh;
-    width: 80%;
-}
-
-#main5Art1, #main5Art2 {
-    flex: 1;
-}
-
-#main5Art1 {
-    flex: 0 0 60%;
-}
-
-#main5Art2 {
-    flex: 0 0 40%;;
-}
-
-#main5Art1 p {
-    font: 24px var(--font-padrão);
-    line-height: 1.8em;
     text-align: justify;
-    padding:5%;
+    position: relative;
 }
 
-#main5Art2 {
-    background-color: rgba(128, 128, 128, 0.422);
-    border-radius: 12px;
-    border-radius: 1px 1px 1px rgba(0, 0, 0, 0.518);
-}
-
-#tituloJogado {
-    text-align: center;
-    font: 24px var(--font-destaque);
-    font-style: italic;
-    color: #4b158d6c;
-}
-
-#main6 {
-    display: flex;
-    height: 70vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#main6 p {
-    font: 32px var(--font-padrão);
-    width: 40%;
-    text-align: justify;
+#art2 p {
+    width: 50%;
+    font: 28px var(--font-padrão);
     line-height: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#main6 h2 {
-    font: 48px var(--font-destaque);
-
+#art3 {
+    height: 30vh;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 
+#art3 h3 {
+    font: 36px var(--font-destaque);
+}
+
+#art3 > .img-art3 {
+   width: 80%;
+   height: 80%;
+}
+
+#main3 {
+    min-width: 100%;
+    height: 80vh;
+    padding-top: 3%;
+}
+
+#main3 h2 {
+    text-align: center;
+    font: 36px var(--font-destaque);
+}
+
+#Est-if h3 {
+    font: 36px var(--font-padrão);
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+#Est-if p {
+    font: 28px var(--font-padrão);
+    padding-left: 9.7%;
+}
+
+.artigo-if {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    padding-top: 2%;
+}
+
+.if-img {
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+.if-txt {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex: 1; 
+    justify-content: flex-start; 
+}
+
+.if-txt h3 {
+    font: 24px var(--font-destaque);
+    text-align: center; 
+    align-self: flex-start; 
+    width: 100%; 
+    padding-bottom: 2%;
+}
+
+.if-txt p {
+    font: 40px var(--font-padrão);
+    align-self: center; 
+}

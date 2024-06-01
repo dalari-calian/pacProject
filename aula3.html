@@ -90,5 +90,89 @@
         </a>
         <p>Laços de repetição </p>
     </main>
+    <article id="art1" >
+        <h2 id="titart">INTRODUÇÃO A ESTRUTURAS CONDICIONAIS</h2>
+    </article>
+    <article id="art2">
+        <p>Uma estrutura condicional é uma construção de programação que permite que o código tome decisões e execute diferentes blocos de instruções com base em determinadas condições. As estruturas condicionais verificam uma ou mais expressões lógicas (que podem ser verdadeiras ou falsas) e, dependendo do resultado, direcionam o fluxo de execução do programa para diferentes partes do código.</p>
+    </article>
+    <article id="art3">
+        <H3>Operadores Lógicos</H3>
+        <div class="img-art3" style="background: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*_sS64sGl7FOjH5lecaXICA.png) top center no-repeat; 
+        border-radius: 20px;
+        "> 
+        </div>
+    </article>
+    <main id="main3">
+        <h2>Estruturas Condicionais em Linguagem C</h2>
+            <div id="Est-if">
+                <h3>Estrutura If</h3>
+                <p>A estrutura if é usada para executar um bloco de código se uma condição especificada for verdadeira.</p>
+            </div>
+            <article class="artigo-if">
+            <div class="if-img" style="background: black url(https://hermes.dio.me/articles/cover/bd1184aa-0947-477a-8aea-5aa61ad1a92d.jpg) center center no-repeat; background-size: cover;">
+
+            </div>
+            <div class="if-txt">
+                <h3>Exemplo em código: </h3>
+                <p>#include &lt;stdio.h&gt; <br>
+                    int main() { <br>
+                    int x = 10; <br>
+                    if (x > 0) { <br>
+                    printf("x é positivo.\n"); <br>
+                    } <br>
+                    return 0; <br>
+                    }</p>
+            </div>
+        </article>
+        <div id="Est-if">
+            <h3>Estrutura if-else</h3>
+            <p>A estrutura if-else permite executar um bloco de código se a condição for verdadeira e outro bloco se a condição for falsa.</p>
+        </div>
+        <article class="artigo-if">
+            <div class="if-img" style="background: black url(https://www.bosontreinamentos.com.br/wp-content/uploads/2018/07/desvio-condicional-encadeado-if-elseif-1024x631.jpg) center top
+            no-repeat; background-size: cover;"></div>
+            <div class="if-txt">
+                <h3>Exemplo em código: </h3>
+                <p>#include &lt;stdio.h&lt; <br>
+                    int main() {  <br>
+                    int x = -10; <br>
+                    if (x > 0) { <br>
+                    printf("x é positivo.\n"); <br>
+                    } else { <br>
+                    printf("x não é positivo.\n"); <br>
+                    } 
+                    return 0; <br>
+                    }</p>
+            </div>
+        </article>
+        <div id="Est-if">
+            <h3>Estrutura do switch</h3>
+            <p>A estrutura switch é usada quando você precisa selecionar uma entre muitas alternativas com base no valor de uma variável.</p>
+        </div>
+        <article class="artigo-if">
+            <div class="if-img" style="background: black url(https://lh4.googleusercontent.com/j6_mpqgkebHeroWAPNNhaEXmchRCoF2YGA5W_0Wkh8LaYE3l73EGvNIbWmINCKm7xHFW5gNfz5HnjQRkfEYQ-Cj70_qqaHnkOIDlLug6j_ZLYxvjgU12G49HKPxB3hbA2dwaMgiZ) center center
+            no-repeat; background-size: cover;"></div>
+            <div class="if-txt">
+                <h3>Exemplo em código: </h3>
+                <p style="font: 26px var(--font-padrão); 
+                line-height: 1.5em;">#include &lt;stdio.h&lt; <br>
+                    int main() { <br>
+                        int dia = 3; <br>
+                        switch (dia) { <br>
+                            case 1: printf("Segunda-feira\n"); break;<br>
+                            case 2: printf("Terça-feira\n"); break;<br>
+                            case 3: printf("Quarta-feira\n"); break;<br>
+                            case 4: printf("Quinta-feira\n"); break;<br>
+                            case 5: printf("Sexta-feira\n"); break;<br>
+                            case 6: printf("Sábado\n"); break;<br>
+                            case 7: printf("Domingo\n"); break;<br>
+                            default: printf("Dia inválido\n");<br>
+                    }
+                        return 0;<br>
+                    }</p>
+            </div>
+        </article>
+    </main>
     </body>
 </html>
