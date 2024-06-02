@@ -1,0 +1,367 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+:root {
+    --cor0: #4A158D;
+
+    --font-padrão:"DM Sans", arial, sans-serif;
+    --font-destaque:"Poppins", arial, sans-serif;
+}
+body {
+    background-color: rgba(211, 211, 211, 0.524);
+}
+header {
+    background-color: #4A158D;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    display: flex; /* Mantém flex para alinhamento */
+    align-items: center; /* Centraliza verticalmente */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+.imagemHead {
+    width: 19%;
+    height: 100%;
+    padding-right: 10%;
+    position: relative;
+}
+
+.imagemHead img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100%) brightness(0) invert(100%);
+    width: 50%;
+    height: 50%;
+}
+
+nav {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    width: 40vw;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative; 
+}
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    font: 20px var(--font-padrão);
+    color: black;
+}
+
+nav li a:hover {
+    color: #000000;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1; 
+    background-color: white;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+    
+}
+.dropdown-menu a:hover{
+    background-color: rgb(225, 225, 225);
+}
+.dropdown-menu a {
+    display: block;
+    color: black;
+    padding: 10px 30px;
+    text-align: left; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.listaArtigo > p, li {
+    font: 24px var(--font-padrão);
+    padding: 2%;
+    line-height: 2em;
+    text-align: justify;
+}
+
+ol {
+    margin-left: 2.8%;
+    padding-left: 2.8%;
+}
+
+.mainLogica {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #9C71D1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+.artigoLogica {
+    display: flex;
+    height: 50vh;
+    width: 80%;
+}
+
+.logicaCont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logicaCont h1 {
+    font-family: var(--font-destaque);
+    font-size: 48px;
+    margin-top: 8%;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+
+.logicaCont h2 {
+    font-family: var(--font-destaque);
+    font-size: 36px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+
+.logicaCont p {
+    font-family: var(--font-padrão);
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.551);
+    width: 55%;
+    margin: auto;
+    line-height: 2em;
+}
+
+.logicaImg {
+    flex: 1;
+    background-color: orange;
+    background: black url(https://davidcreator.com/wp-content/uploads/2023/02/Introducao-a-Linguagem-C.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+
+.aula2-tit  {
+    padding-top: 3%;
+    text-align: center;
+    font: bold 48px var(--font-destaque);
+    margin: auto;
+}
+
+.aula2-p {
+    font: 32px var(--font-padrão);
+    text-align: center;
+    margin: auto;  
+    padding-top: 2%;      
+}
+
+#aula2-main1 {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aula2-artigo {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.aula2-img {
+    flex: 1;
+}
+ 
+.aula2-txt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aula2-txt > h2 {
+    align-self: flex-start;
+    font: bold 28px var(--font-destaque);
+    padding-top: 3%;
+    text-align: center;   
+    margin: auto;
+}
+
+.aula2-txt > p {
+    margin: auto;
+    font: 28px var(--font-padrão);
+    text-align: justify;
+    width: 60%;
+}
+
+.aula2-img {
+    background: black url(https://slideplayer.com.br/slide/395979/3/images/11/Formatos+Para+scanf+e+printf%3A+Apenas+para+printf%3A+%25d+%E2%80%93+inteiro.jpg) bottom right no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+#aula2-artigo2 {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+#aula2-artigo2 > h2 { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 48px var(--font-destaque);
+    text-align: center;
+}
+
+#aula2-artigo3 {
+    width: 100%;
+    height: 60vh;
+}
+
+.titulo {
+    font: bold 36px var(--font-destaque);
+    text-align: center;
+}
+
+#aula2-listaa {
+    margin: auto;
+    width: 50%;
+}
+
+.aula2-lista {
+    font: 28px var(--font-padrão);
+}
+
+#aula2-artigo4 h4 {
+    padding-top: 2%;
+    width: 50%;
+    margin: auto;
+    font: 28px var(--font-padrão);
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.main4 {
+    height: 30vh;
+    width: 100%;
+    background-color: #9C71D1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+.main4 #buttonExec, p {
+    display: inline-block;
+    align-self: center; 
+    padding: 1%;
+}
+
+#buttonExec {
+    font: 48px var(--font-padrão);
+    padding: 0.5%;
+    background-color: #4A158D;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}
+
+.main4 p {
+    color: rgba(255, 255, 255, 0.47);
+    font: 24px var(--font-padrão);
+}
+
+#art1 {
+    padding-top: 6%;
+    height: 30vh;
+    position: relative;
+}
+
+#art1 > p, #titart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#art1 p {
+    font: 48px var(--font-padrão);
+    line-height: 1.5em;
+}
+
+#art1 > #titart {
+    font: bolder 62px var(--font-destaque);
+    color: #4A158D;
+}
+
+#aula2-artigo5 {
+    height: 40vh;
+    width: 100%;
+}
+
+#aula2-artigo5 p {
+    font: 28px var(--font-padrão);
+    padding-left: 3%;
+    width: 80%;
+    text-align: justify;
+    padding: 2%;
+}
+#aula2-artigo5 h4 {
+    font: 28px var(--font-padrão);
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+.img-aula2 { 
+    margin: auto;
+    height: 50vh;
+    width: 50%;
+    padding-bottom:3%;
+}
+
+
+
+.img-aula2 > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+}

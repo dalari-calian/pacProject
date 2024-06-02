@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="aula2.css">
+    <link rel="shortcut icon" href="images.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="imagemHead">
+            <a href="http://127.0.0.1:5500/index.html"><img src="logo-responsivo-catolica.png" alt=""></a>
+        </div>
+       <nav>
+        <ul>
+        <li class="dropdown">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="dropdown">
+            <a href="#">Exercícios</a>
+            <div class="dropdown-menu">
+                <a href="jogos-logica.html">Lógica de Programação</a>
+            </div>
+        </li>
+        <li class="dropdown">
+           <a href="#">Aulas</a>
+           <div class="dropdown-menu">
+            <a href="lógica.html">Aula1</a>
+            <a href="aula2.html">Aula2</a>
+            <a href="aula3.html">Aula3</a>
+        </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">Conteúdos</a>
+            <div class="dropdown-menu">
+                <a href="conteudos.html">Lógica de Programação</a>
+                <a href="bibliotecas.html" target="_blank">Bibliotecas em C</a>
+                <a href="programacaoc.html" target="_blank">Programação em C</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">Recomendações de Site</a>
+            <div class="dropdown-menu">
+                <a href="https://www.w3schools.com" target="_blank">W3CSchools</a>
+                <a href="https://www.codewars.com" target="_blank">Codewars</a>
+                <a href="https://exercism.org" target="_blank">Exercism</a>
+            </div>
+        </li>
+        </ul>
+       </nav>
+    </header>
+    <main class="mainLogica">
+        <article class="artigoLogica">
+            <div class="logicaCont">
+                <h1>Aula 2:</h1>
+                <h2>Declaração de variáveis e comandos <br>de entrada e saída</h2>
+                <p>Nessa aula você pode ter acesso á várias explicações que irão te auxiliar a aprender mais sobre declaração de variáveis e comandos de entrada e saída em linguagem C.</p>
+            </div>
+            <div class="logicaImg"></div>
+        </article>
+    </main>
+    <h1 class="aula2-tit">    
+        Como funcionam as 
+        declarações de variáveis?
+    </h1>
+    <h3 class="aula2-p">
+        Ao criar uma variável, dizemos que ela foi declarada. <br>A declaração de uma variável é essencial na primeira <br> vez que a variável 
+    </h3>
+    <main id="aula2-main1">
+        <article id="aula2-artigo">
+            <div class="aula2-txt">
+                <h2>Mas como se faz essa declaração? </h2>
+                <p>É bastante simples: basta escrever
+                    o tipo da variável, seguido do nome
+                    desejado para ela, e finalizar a instrução
+                    com um ponto-e-vírgula (;).
+                    Veja o exemplo ao lado:</p>
+            </div>
+            <div class="aula2-img">               
+            </div>
+        </article>
+    </main> 
+    <article id="aula2-artigo2">
+        <H2>Comandos de entrada e saída <br>
+            input output:</H2>
+    </article>
+    <article id="aula2-artigo3">
+        <H2 class="titulo">Entrada de dados</H2>
+        <div id="aula2-listaa">
+            <ul class="aula2-lis">
+                <li class="aula2-lista">A entrada de dados possibilita que um programa receba  informações de dispositivos de entrada;</li>
+                <li class="aula2-lista">A entrada de dados possibilita que um programa receba  informações de dispositivos de entrada;</li>
+                <li class="aula2-lista">Para executar o comando de entrada, é essencial incluir a diretiva `#include&lt;stdio.h>`.</li>
+                <li class="aula2-lista">O comando `scanf()` utiliza caracteres de formatação para indicar os tipos de dados dos valores que devem ser inseridos.</li>
+            </ul>
+        </div>
+    </article>
+    <article id="aula2-artigo4">
+        <h2 class="titulo">Saída de dados</h2>
+        <h4>Podemos imprimir, além de texto puro, <br> o conteúdo de uma <br>variável utilizando a função ‘printf’ da biblioteca <br>stdio.h;</h4>
+    </article>
+    <article id="aula2-artigo4">
+        <h2 class="titulo" style="padding-top: 3%;">Principais especificadores de formato</h2>
+        <h4>%i- inteiro </h4>
+        <h4>%f- números quebrados</h4>
+        <h4 style="padding-bottom: 2%;">%c- caracteres</h4>
+    </article>
+    <main class="main4">
+        <a href="https://programacaodescomplicada.wordpress.com/2012/05/28/aula-02-declaracao-de-variaveis/" target="_blank" id="buttonExec">
+            Fazer exercício
+        </a>
+        <p>Declaração de variaveis</p>
+    </main>
+    <article id="art1" >
+        <h2 id="titart">DECLARAÇÃO DE VARIÁVEIS</h2>
+    </article>
+    <article id="aula2-artigo5">
+        <h2 class="titulo">O que é?</h2>
+        <p>Uma variável é um espaço na memória destinado ao armazenamento de um tipo específico  de dado. Toda variável precisa ter um tipo e um nome. O tipo de dado de uma variável define o que ela pode armazenar.</p>
+    </article>
+    <article id="aula2-artigo5">
+        <h2 class="titulo">Tipos de dados</h2>
+        <p>Cada tipo de dado é específico para armazenar um formato de dado. Os mais usados são:</p>
+        <h4><span style="font-weight: bold;">int:</span> Usado para números inteiros; Exemplo: 1, 2, -10, 412;</h4>
+        <h4><span style="font-weight: bold;">float:</span> Usado para números reais; Exemplo: 3,5, -9,7, 24,3;</h4>
+        <h4><span style="font-weight: bold;">char:</span> Usado para caracteres; Exemplo: a, b, c;</h4>
+    </article>
+    <article id="aula2-artigo5">
+        <h2 class="titulo">Declaração das variáveis</h2>
+        <p>No programa, você deve declarar a variável dessa forma: [tipo da variável] [nome da variável];</p>
+        <h2 class="titulo">
+            Exemplo:
+        </h2>
+        <div class="img-aula2">
+            <img src="image.png" alt=""></div>
+    </article>
+    </body>
