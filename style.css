@@ -5,6 +5,8 @@
 
 
 body {
+    width: 100vw;
+    height: 100vh;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -23,7 +25,6 @@ body {
     background-color: #4A158D;
     font-family: Arial;
     flex-direction: column;
-    height: 20%;
 }
 
 .containerLogo {
@@ -258,6 +259,16 @@ li {
 
 .languageTittle{
     font-size: 3rem;
+}
+.creditos{
+    width: 100%;
+    height: 300px;
+    background-color: #4A158D;
+    align-content: center;
+    color: #f9f9f9;
+}
+.creditosTexto{
+    margin: 20%;
 }
 
 @media (min-width: 1280px) and (max-width: 1366px) {

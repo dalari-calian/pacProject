@@ -260,7 +260,7 @@ ol {
     text-align: center;
 }
 
-#aula2-listaa {
+#aula2-lista {
     margin: auto;
     width: 50%;
 }
@@ -335,13 +335,14 @@ ol {
 #aula2-artigo5 {
     height: 40vh;
     width: 100%;
+    text-align: center;
 }
 
 #aula2-artigo5 p {
     font: 28px var(--font-padrão);
     padding-left: 3%;
     width: 80%;
-    text-align: justify;
+    text-align: center;
     padding: 2%;
 }
 #aula2-artigo5 h4 {
@@ -349,12 +350,14 @@ ol {
     padding-left: 3%;
     padding-bottom: 1%;
 }
+.aula2-artigo5-credito{
+    padding-bottom:20% ;
+}
 
 .img-aula2 { 
     margin: auto;
-    height: 50vh;
+    height: auto;
     width: 50%;
-    padding-bottom:3%;
 }
 
 
