@@ -15,7 +15,7 @@
     --font-destaque:"Poppins", arial, sans-serif;
 }
 body {
-    background-color: rgba(211, 211, 211, 0.524);
+    background-color:rgba(255, 255, 255, 0.861);
 }
 header {
     background-color: #4A158D;
@@ -252,7 +252,7 @@ ol {
 
 #aula2-artigo3 {
     width: 100%;
-    height: 60vh;
+    height: 100%;
 }
 
 .titulo {
@@ -276,6 +276,9 @@ ol {
     font: 28px var(--font-padrão);
     line-height: 1.5em;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main4 {
@@ -309,8 +312,7 @@ ol {
 }
 
 #art1 {
-    padding-top: 6%;
-    height: 30vh;
+    padding-top: 10%;
     position: relative;
 }
 
@@ -333,7 +335,7 @@ ol {
 }
 
 #aula2-artigo5 {
-    height: 40vh;
+    padding-bottom: 2%;
     width: 100%;
     text-align: center;
 }
@@ -345,6 +347,7 @@ ol {
     text-align: center;
     padding: 2%;
 }
+
 #aula2-artigo5 h4 {
     font: 28px var(--font-padrão);
     padding-left: 3%;
@@ -360,11 +363,10 @@ ol {
     width: 50%;
 }
 
-
-
 .img-aula2 > img {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.396);
+    margin: 20px;
 }

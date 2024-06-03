@@ -150,7 +150,7 @@ nav li a:hover {
     width: 55%;
     margin: auto;
     line-height: 2em;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -171,7 +171,7 @@ nav li a:hover {
     font: 36px var(--font-padrão);
     margin: auto;
     padding-top: 4%;
-    text-align: left;
+    text-align: center;
 }
 
 #main2 {
@@ -258,15 +258,23 @@ ol {
     font: bolder 70px var(--font-destaque);
     text-align: center;
 }
-#art2 p {
+
+#art2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#art2 p span{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 1% 15%;
-    font: 40px var(--font-padrão);
+    margin: 1% 30%;
+    font: 36px var(--font-padrão);
     color: black;
+    width: 40%;
 }
+
 
 #art3 {
     height: 30vh;
@@ -364,18 +372,17 @@ ol {
     align-items: center;
     color: #4b158d6c;
     font: 24px var(--font-padrão);
-    margin-left: 30%;
 }
 
 #sub p{
-    width: 50%;
+    width: 70%;
     font: 24px var(--font-padrão);
-    margin-left: 29%;
 }
 
 #sub{
+    margin-left: 10%;
     margin-bottom: 2%;
-    text-align: left;
+    text-align: center;
 }
 
 .cinza {
@@ -384,30 +391,33 @@ ol {
 }
 
 #comp{
+    margin-top: 2%;
     margin: 2%;
     display: flex;
     text-align: center;
     justify-content: space-around;
     padding-right:5% ;
     padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.img-proto{
+.img{
     float: right;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
 
 #sub h3{
     font: 48px var(--font-padrão);
-    width: 70%;
+    width: 20%;
     text-align: center;
     margin-top: 10%;
     margin-left: 30%;
 }
 
-.img-circuitos{
-    margin-left: 10%;
-}
 
 .creditos{
     width: 100%;
@@ -419,8 +429,23 @@ ol {
 .creditosTexto{
     margin: 20%;
 }
+
+.img-teclados img{
+    margin-left: 50%;
+}
+
+#sub-clique h3{
+    font: 48px var(--font-padrão);
+    width: 70%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
 .img-botao{
+    margin-right: 10px;
+}
+.botoes{
     display: flex;
-    margin: 10px;
-    width: 100%;
+    margin-left: 5%;
 }
