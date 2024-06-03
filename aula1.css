@@ -292,6 +292,7 @@ ol {
 }
 
 #main5Art2 {
+    margin-top: 8%;
     flex: 0 0 40%;;
 }
 
@@ -299,13 +300,15 @@ ol {
     font: 24px var(--font-padrão);
     line-height: 1.8em;
     text-align: justify;
-    padding:5%;
+    width: 70%;
 }
+
 
 #main5Art2 {
     background-color: rgba(128, 128, 128, 0.422);
     border-radius: 12px;
     border-radius: 1px 1px 1px rgba(0, 0, 0, 0.518);
+    
 }
 .lista2{
     line-height: 1.5em;
@@ -319,26 +322,29 @@ ol {
 }
 
 #main6 {
+    margin: 5%;
     display: flex;
-    height: 70vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction:row;
+
+
 }
 
+#main6 img{
+    margin: 0% 20%;
+}
 #main6 p {
-    font: 32px var(--font-padrão);
-    width: 40%;
-    text-align: justify;
-    line-height: 2em;
+    font: 40px var(--font-padrão);
+    width: 50%;
+    margin: 10% 0% 0% 25%;
 }
 
 #main6 h2 {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font: 48px var(--font-destaque);
 }
-#main6 span{
-    font-size: 1em;
-}
+
 
 
