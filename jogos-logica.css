@@ -85,8 +85,7 @@ h3 {
     flex-direction: column;
 }
 .tituloPag h1{
-    font-size: 2.5em;
-    font-weight: 600;
+    font: 40px var(--font-destaque);
     color: white;
 }
 .exercicios{
@@ -97,7 +96,7 @@ h3 {
     padding-bottom: 4%;
 }
 .exercicios p{
-    font-size: 1em;
+    font: 30px var(--font-destaque);
     text-align: left;
     margin-bottom: 10%;
 }

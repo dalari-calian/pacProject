@@ -202,12 +202,13 @@ nav li a:hover {
 }
 .listaArtigo > p, li {
     font: 24px var(--font-padrão);
-    padding: 2%;
+    padding: 1%;
     line-height: 2em;
     text-align: justify;
 }
 
 ol {
+    padding-top: 2%;
     margin-left: 2.8%;
     padding-left: 2.8%;
 }
@@ -339,4 +340,5 @@ ol {
 #main6 span{
     font-size: 1em;
 }
+
 
