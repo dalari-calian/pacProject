@@ -264,6 +264,9 @@ ol {
     font: bolder 92px var(--font-destaque);
     color: #4A158D;
 }
+#art1 span{
+    font-size: 1em;
+}
 
 #main5 {
     height: 70vh;
@@ -303,6 +306,9 @@ ol {
     border-radius: 12px;
     border-radius: 1px 1px 1px rgba(0, 0, 0, 0.518);
 }
+.lista2{
+    line-height: 1.5em;
+}
 
 #tituloJogado {
     text-align: center;
@@ -329,6 +335,8 @@ ol {
 
 #main6 h2 {
     font: 48px var(--font-destaque);
-
+}
+#main6 span{
+    font-size: 1em;
 }
 

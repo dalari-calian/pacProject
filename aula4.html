@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aula4.css">
+    <link rel="shortcut icon" href="images.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="containerHomePage">
+        <div class="navbar">
+            <img id="simbolocat" src="simbolocat.png" alt="">
+            <div class="containerNav">
+                <div class="containerNavOption">
+                    <a href="index.html">Início</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Exercício
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="jogos-logica.html">Jogos De Lógica</a>
+                            <a href="declaracaoDeVar.html">Variáveis</a>
+                            <a href="comandoEntSai.html">Entrada e Saída</a>
+                            <a href="condicional.html">Condicionais</a>
+                            <a href="lacoRep.html">Laços de Repetição</a>
+                            <a href="conhecendoArd.html">Arduino</a>
+                            <a href="SimRobo.html">Simuladores</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Conteúdos
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="conteudos.html">Lógica de Programação</a>
+                            <a href="bibliotecas.html">Bibliotecas em C</a>
+                            <a href="programacaoc.html">Programação em C</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Aulas
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="aula1.html">Aula 1</a>
+                            <a href="aula2.html">Aula 2</a>
+                            <a href="aula3.html">Aula 3</a>
+                            <a href="aula4.html">Aula 4</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Recomendação de sites
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="https://www.w3schools.com" target="_blank">W3CSchools</a>
+                            <a href="https://www.codewars.com" target="_blank">Codewars</a>
+                            <a href="https://exercism.org" target="_blank">Exercism</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <main class="mainLogica">
+        <article class="artigoLogica">
+            <div class="logicaCont">
+                <h1>Aula 4:</h1>
+                <h2>ARDUINO e seus componentes</h2>
+                <p>Nessa aula você pode ter acesso á várias explicações que irão te auxiliar a aprender mais sobre ARDUINO, seus componentes básicos e sua função na robótica.</p>
+            </div>
+            <div class="img-arduino"> </div><img src="./arduino.svg">
+        </article>
+    </main>
+
+    <main id="main1">
+        <h2>O que é arduino?</h2>
+        <p>De forma bem simples e prática o Arduino é uma plataforma pra te ajudar com projetos de eletrônica e programação. A ideia é que você tivesse uma coisa barata e funcional para testar e aprender. Essa plataforma e sistema é quase todo baseado em uma placa, e a mais comum delas é o ARDUINO UNO R3, que vamos usar como exemplo na aula.</p>
+        <p>Essa placa tem um microcontrolador que funciona mais ou menos como um computador bem pequeno que é capaz de processar e armazenar coisas, e é usada em conjunto com a linguagem de programação. Então você consegue escrever coisas e fazer com que ele alcance o objetivo que você designou. Ele se tornou tão popular porque foi criado com a idéia de hardware livre.</p> 
+        <p>Significa que você pode dar uma olhada em como funciona todo o Arduino, comprar os componentes e montar o seu próprio circuito.</p>
+    </main>
+
+    <main class="main4">
+        <a href="https://www.tinkercad.com" target="_blank" id="buttonExec">
+            Acessar simulador
+        </a>
+        <p>Tinkercad</p>
+    </main>
+
+    <h2 id="tituloJogado">
+        Para ajudar a entender a explicação, você pode criar sua conta no Tinkercad e acompanhar utilizando o simulador.
+    </h2>
+
+    <article id="comp">
+        <div id="sub">
+            <h3>Clique em criar e depois em circuitos!</h3>
+        </div>
+        <div class="img-circuitos"> </div><img src="./circuitos.svg">
+    </article>
+    
+    <article id="art1" >
+        <h2>COMPONENTES<br><span style="color: blueviolet;">BÁSICOS</span></h2>
+    </article>
+   
+    <article id="art2">
+        <p>Para trabalhar com o arduino, vamos precisar de mais componentes para criar o que queremos.<br><br>
+
+            (Podemos pensar no arduino como uma espécie de quebra cabeça lógico, onde adicionamos peças para criar novas funções.)<br><br>
+            
+            Esses são os componentes mais comuns com as suas respectivas funções (você consegue encontrar todos eles no tinkercad e usar nas simulações):</p>
+    </article>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>PROTOBOARD</h2>
+            <h4>encontrada no Tinkercad como placa de ensaio</h4>
+            <p>Ela nos ajuda a fazer a montagem dos componentes. Formada por vários pontos elétricos interligados, ela permite que os componentes eletrônicos façam conexões elétricas e conversem entre si. Vamos entender melhor como funciona depois, na prática.</p>
+        </div>
+        <div class="img-proto"> </div><img src="./protoboard.svg">
+    </article>
+
+    <div class="cinza">
+        <article id="comp">
+            <div id="sub">
+                <h2>JUMPERS</h2>
+                <h4>basta clicar num furinho da protoboard e puxar para fazer as ligações no Tinkercad</h4>
+                <p>Eles são os fios que ligam o seu Arduino ao protoboard e também aos demais componentes. Há várias cores e tamanhos para auxiliar na identificação e organização deles. Eles possuem diferenciação entre macho e fêmea. (Macho - pino; Fêmea - encaixe)</p>
+            </div>
+            <div class="img-jumpers"> </div><img src="./jumpers.svg">
+        </article>
+    </div>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>RESISTORES</h2>
+            <h4>você consegue alterar a resistência dele pelo Tinkercad</h4>
+            <p>O papel do resistor é, primordialmente, limitar a corrente elétrica que flui em um circuito e evitar que ele queime, para isso precisamos estar atentos a resistência do resistor que estamos usando, pois se ele for muito fraco, os componentes vão queimar de qualquer maneira. Cada cor diferente serve pra identificar a sua resistência.</p>
+        </div>
+        <div class="img-resistores"> </div><img src="./resistores.svg">
+    </article>
+
+    
+    <main class="main4">
+        <a href="https://www.youtube.com/watch?v=76M_eZe-XoE " target="_blank" id="buttonExec">
+            Acessar apoio
+        </a>
+        <p>Entenda melhor sobre as cores de resistores</p>
+        
+    </main>
+
+    <h2 id="tituloJogado">
+        Lembrando que no simulador as cores serão trocadas de forma automática correspondente á sua resistência, e esse conhecimento é necessário quando formos utilizar os componentes fisicamente.
+    </h2>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>LEDs</h2>
+            <p>São pequenas luzes utilizadas no Arduino principalmente para sinalização luminosa. Possuem várias cores.</p>
+        </div>
+        <div class="img-leds"> </div><img src="./leds.svg">
+    </article>
+
+    <div class="cinza">
+        <article id="comp">
+            <div id="sub">
+                <h2>BOTÕES E CHAVES</h2>
+                <p>Ao pressionar um botão ou acionar uma chave, o usuário do nosso equipamento emite um comando manual solicitando que algo seja feito. O que fazer dependerá do nosso programa. Como por exemplo ligar ou desligar um motor. O botão de pressão é utilizado para emitir um comando durante o tempo em que ele se encontra pressionado. A chave possui estados que mantém um determinado circuito ligado ou desligado.</p>
+            </div>
+            <div class="img-botao">
+                <img src="./botao.svg">
+            </div>
+            <div class="img-botao">
+                <img src="./botao2.svg">
+            </div>
+        </article>
+    </div>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>SENSORES</h2>
+            <h4>o Tinkercad possui vários tipos diferentes de sensores</h4>
+            <p>Eles convertem informações do mundo físico em sinais elétricos de modo que o nosso Arduino possa manipulá-los. </p>
+        </div>
+        <div class="img-sensor"> </div><img src="./sensor.svg">
+    </article>
+
+    <div class="cinza">
+        <article id="comp">
+            <div id="sub">
+                <h2>ATUADORES</h2>
+                <p>Enquanto os sensores monitoram o ambiente, os atuadores atuam sobre ele. Isto significa que podemos interagir com o mundo físico por meio deles. </p>
+            </div>
+            <div class="img-atuador"> </div><img src="./atuadores.svg">
+        </article>
+    </div>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>MOTORES</h2>
+            <h4>encontrado no Tinkercad como motor CC</h4>
+            <p>Os motores são um tipo de atuador que converte energia elétrica em mecânica. Os três tipos mais utilizados com o Arduino são o motor de corrente contínua (DC), motor de passo e servo-motor. A principal diferença entre eles é força e local de uso.</p>
+        </div>
+        <div class="img-motor"> </div><img src="./motores.svg">
+    </article>
+
+    <div class="cinza">
+        <article id="comp">
+            <div id="sub">
+                <h2>BUZZERS</h2>
+                <h4>encontrado no Tinkercad como Piezo</h4>
+                <p>Os buzzers são utilizados para produzir uma sinalização sonora para o usuário. Os modelos com oscilador interno (buzzers ativos) emitem sempre o mesmo tom e podemos apenas ligar ou desligar eles. Os modelos sem oscilador (buzzers passivos) permitem produzir diversos tons e reproduzir uma melodia, como de um alarme. Mas precisam ser executados diretamente pelo arduino.</p>
+            </div>
+            <div class="img-buzzer"> </div><img src="./buzzers.svg">
+        </article>
+    </div>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>DISPLAYS</h2>
+            <h4>o Tinkercad possui vários tipos diferentes de displays</h4>
+            <p>Mostram informações ao usuário por meio de segmentos de led, ou até por outros meios que estão sendo popularizados agora.  </p>
+        </div>
+        <div class="img-display"> </div><img src="./displays.svg">
+    </article>
+
+    <div class="cinza">
+        <article id="comp">
+            <div id="sub">
+                <h2>MÓDULOS DE COMUNICAÇÃO</h2>
+                <p>Um Arduino pode trocar informações remotamente com outros Arduinos, computadores, celulares, tablets, etc. E é para isso que servem os módulos de comunicação. Temos como exemplo o Wi-Fi, 3g, 4g, Bluetooth, entre outras tecnologias que permitem essa troca de dados via módulo de comunicação.</p>
+            </div>
+            <div class="img-modulos"> </div><img src="./modulos.svg">
+        </article>
+    </div>
+
+    <article id="comp">
+        <div id="sub">
+            <h2>TECLADOS <br>MATRICIAIS</h2>
+            <p>Recebem entrada de dados do usuário.</p>
+        </div>
+        <img src="./teclados.svg">
+    </article>
+    
+    <main class="main4">
+        <a href="https://www.youtube.com/watch?v=WzfQ8Do8n8Y&list=PLFfpdsnO_HS8hCaGoy_Rv5fquzgbC6csO&index=1" target="_blank" id="buttonExec">
+            Acessar apoio
+        </a>
+        <p>Curso de Arduino completo no YouTube</p>
+    </main>
+    <div class="creditos">
+        <div class="creditosTexto">
+        <h1>Creditos:</h1>
+        <p>Desing e conteúdos: Ana Claudia Volkman, Eduarda Meier Cardoso, Luana Maria Meinchein, Juliana Castilhos, Mariana Cavalcante dos Santos </p>
+        <p>Desenvolvimento do site: Erik Locatelli, Calian Dalari, Gustavo Fontana Bertoldi, Guilherme Eulert, Gabriel Machado, Vinicius Oneda, Wesley Wiltuschnig, João Pedro Sumi Bebber</p>
+    </div>
+</div>
+</body>

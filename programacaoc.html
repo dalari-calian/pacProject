@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>linguagem C</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="conteudoscss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,49 +12,60 @@
     <link rel="shortcut icon" href="images.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="imagemHead">
-            <a href="http://127.0.0.1:5500/index.html"><img src="logo-responsivo-catolica.png" alt=""></a>
+    <div class="containerHomePage">
+        <div class="navbar">
+            <img id="simbolocat" src="simbolocat.png" alt="">
+            <div class="containerNav">
+                <div class="containerNavOption">
+                    <a href="index.html">Início</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Exercício
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="jogos-logica.html">Jogos De Lógica</a>
+                            <a href="declaracaoDeVar.html">Variáveis</a>
+                            <a href="comandoEntSai.html">Entrada e Saída</a>
+                            <a href="condicional.html">Condicionais</a>
+                            <a href="lacoRep.html">Laços de Repetição</a>
+                            <a href="conhecendoArd.html">Arduino</a>
+                            <a href="SimRobo.html">Simuladores</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Conteúdos
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="conteudos.html">Lógica de Programação</a>
+                            <a href="bibliotecas.html">Bibliotecas em C</a>
+                            <a href="programacaoc.html">Programação em C</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Aulas
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="lógica.html">Aula 1</a>
+                            <a href="aula2.html">Aula 2</a>
+                            <a href="aula3.html">Aula 3</a>
+                            <a href="aula4.html">Aula 4</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Recomendação de sites
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="https://www.w3schools.com" target="_blank">W3CSchools</a>
+                            <a href="https://www.codewars.com" target="_blank">Codewars</a>
+                            <a href="https://exercism.org" target="_blank">Exercism</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-       <nav>
-        <ul>
-        <li class="dropdown">
-            <a href="index.html">Home</a>
-        </li>
-        <li class="dropdown">
-            <a href="#">Exercícios</a>
-            <div class="dropdown-menu">
-                <a href="jogos-logica.html">Lógica de Programação</a>
-            </div>
-        </li>
-        <li class="dropdown">
-           <a href="#">Aulas</a>
-           <div class="dropdown-menu">
-            <a href="lógica.html">Aula1</a>
-            <a href="aula2.html">Aula2</a>
-            <a href="aula3.html">Aula3</a>
-        </div>
-        </li>
-        <li class="dropdown">
-            <a href="#">Conteúdos</a>
-            <div class="dropdown-menu">
-                <a href="conteudos.html">Lógica de Programação</a>
-                <a href="bibliotecas.html" target="_blank">Bibliotecas em C</a>
-                <a href="programacaoc.html" target="_blank">Programação em C</a>
-
-            </div>
-        </li>
-        <li class="dropdown">
-            <a href="#">Recomendações de Site</a>
-            <div class="dropdown-menu">
-                <a href="https://www.w3schools.com" target="_blank">W3CSchools</a>
-                <a href="https://www.codewars.com" target="_blank">Codewars</a>
-                <a href="https://exercism.org" target="_blank">Exercism</a>
-            </div>
-        </li>
-        </ul>
-       </nav>
-    </header>
     <div id="bloco">
         <div id="cont">
             <div>
@@ -95,6 +107,12 @@
     </div>
     <br><br>
 </div>
-    
+<div class="creditos">
+    <div class="creditosTexto">
+    <h1>Creditos:</h1>
+    <p>Desing e conteúdos: Ana Claudia Volkman, Eduarda Meier Cardoso, Luana Maria Meinchein, Juliana Castilhos, Mariana Cavalcante dos Santos </p>
+    <p>Desenvolvimento do site: Erik Locatelli, Calian Dalari, Gustavo Fontana Bertoldi, Guilherme Eulert, Gabriel Machado, Vinicius Oneda, Wesley Wiltuschnig, João Pedro Sumi Bebber</p>
+</div>
+</div>
 </body>
 </html>

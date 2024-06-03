@@ -72,3 +72,35 @@ h3 {
     margin-top: 8%;
     box-shadow: 0.5px 0.5px 0.3px rgba(0, 0, 0, 0.283);
 }
+
+/*Páginas de exercícios abaixo*/
+
+.tituloPag{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    background-color: #9C71D1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tituloPag h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+}
+.exercicios{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+.exercicios p{
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 10%;
+}
+.exercicios ul{
+    text-align: left;
+}
